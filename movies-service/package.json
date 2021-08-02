@@ -1,0 +1,34 @@
+{
+  "name": "node-assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initLint": "eslint --init",
+    "lint": "eslint \"src/**/*.js\"",
+    "lint:fix": "eslint --fix \"src/**/*.js\"",
+    "metric": "nodejs-dashboard -- node -r nodejs-dashboard src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status": "^1.5.0",
+    "mongoose": "^5.13.3",
+    "path": "^0.12.7",
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.31.0",
+    "mocha": "^9.0.3",
+    "nodejs-dashboard": "^0.5.1",
+    "nodemon": "^2.0.12"
+  }
+}
